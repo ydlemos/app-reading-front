@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+
+  background-color: #0074cc 100%;
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.app-title {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+}
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    border-bottom: 1px solid #ccc;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+}
+
+.custom-modal {
+  border: 2px solid #4e4a4a;
+  border-radius: 8px;
+}
+
+.custom-modal-title{
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  color: #4e4a4a;
+  font-weight: bold;
+}
+
+.category-label {
+  font-family: 'Caveat', cursive;
+  background-color: rgba(0, 0, 0, 0.6); /* Translucent black background */
+  border-radius: 5px; /* Rounded corners */
+  color: white; /* Text color */
+  display: inline-block; /* Ensure proper spacing */
+}
+
+.user-xp{
+  font-family: fantasy, cursive;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0px;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+}
